@@ -65,12 +65,82 @@ function typewriter()
   setTimeout("typewriter()", iSpeed);
  }
 }
-
-
 // typewriter();
 
 setTimeout(typewriter,1000);
 
+
+// animate the services icons upon scroll
+$(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+    var os = $('#tagline').offset().top;
+    var ht = $('#tagline').height();
+    if(scroll > os + ht){
+        $('#javascript').addClass('small');
+        $('.javascript').addClass('changeHeightOfIconDivs');
+        $(".title1").show();
+    }
+});
+$(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+    var os = $('#javascript').offset().top;
+    var ht = $('#javascript').height();
+    if(scroll > os + ht){
+        $('#mongoose').addClass('small');
+        $('.mongoose').addClass('changeHeightOfIconDivs');
+        $(".title2").show();
+    }
+});
+$(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+    var os = $('#mongoose').offset().top;
+    var ht = $('#mongoose').height();
+    if(scroll > os + ht){
+        $('#express').addClass('small');
+        $('.express').addClass('changeHeightOfIconDivs');
+        $(".title3").show();
+    }
+});
+$(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+    var os = $('#express').offset().top;
+    var ht = $('#express').height();
+    if(scroll > os + ht){
+        $('#angular').addClass('small');
+        $('.angular').addClass('changeHeightOfIconDivs');
+        $(".title4").show();
+    }
+});
+$(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+    var os = $('#angular').offset().top;
+    var ht = $('#angular').height();
+    if(scroll > os + ht){
+        $('#node').addClass('small');
+        $('.node').addClass('changeHeightOfIconDivs');
+        $(".title5").show();
+    }
+});
+$(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+    var os = $('#node').offset().top;
+    var ht = $('#node').height();
+    if(scroll > os + ht){
+        $('#htmlFive').addClass('small');
+        $('.htmlFive').addClass('changeHeightOfIconDivs');
+        $(".title6").show();
+    }
+});
+$(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+    var os = $('#htmlFive').offset().top;
+    var ht = $('#htmlFive').height();
+    if(scroll > os + ht){
+        $('#cssThree').addClass('small');
+        $('.cssThree').addClass('changeHeightOfIconDivs');
+        $(".title7").show();
+    }
+});
 
 
 

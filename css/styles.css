@@ -272,9 +272,9 @@ a img:focus {
     transform: rotate(0deg);
   }
 }
-.faa-shake.animated,
-.faa-shake.animated-hover:hover,
-.faa-parent.animated-hover:hover > .faa-shake {
+.faa-shake.animatedOne,
+.faa-shake.animatedOne-hover:hover,
+.faa-parent.animatedOne-hover:hover > .faa-shake {
   -webkit-animation: wrench 2.5s ease;
   animation: wrench 2.5s ease;
 }
@@ -299,4 +299,66 @@ a img:focus {
   padding:35px 0px 35px 0px;
 	color:#666666;
 	text-align:center;
+}
+/*.servicesBox{
+  position:relative;
+}
+.servicesCircle{
+  height:150px;
+}
+#designIcon{
+  height:150px;
+}
+.small #designIcon{
+  position:absolute;
+  height:50px;
+  top:15px;
+  right:15px;
+}
+.changeHeightOfIconDivs{
+  height:50px !important;
+}*/
+.servicesBox{
+  position:relative;
+}
+.servicesCircle{
+  float:clear;
+}
+#designIcon{
+  height:150px;
+}
+.small #designIcon{
+  position:absolute;
+  height:50px;
+  top:15px;
+  right:15px;
+}
+.changeHeightOfIconDivs{
+  height:50px !important;
+}
+.title1, .title2, .title3, .title4, .title5, .title6, .title7{
+  display:none;
+  animation-name: anim-1;
+  position:relative;
+  left:25px;
+  /*bottom:25px;*/
+  width: 60%;
+  font-size: 1em;
+	animation-duration: 2s;
+	animation-timing-function: ease-in;
+}
+.generic{
+  height:1000px;
+}
+@keyframes anim-1 {
+  from{
+    left: -40px;
+  }
+}
+
+/*SERVICES SECTION MEDIA QUERIES*/
+@media (max-width: 240px) {
+  .taglineWrapper {
+    height:100vh;
+  }
 }
