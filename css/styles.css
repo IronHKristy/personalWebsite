@@ -285,3 +285,18 @@ a img:focus {
     background: no-repeat right -480px bottom -150px;
   }
 }
+
+/*SERVICES SECTION*/
+.services {
+	border-top:1px solid #F4F5EE;
+  font-size:19px;
+  font-weight:300;
+  line-height:40px;
+}
+
+.taglineWrapper {
+  background-color:#DEDECD;
+  padding:35px 0px 35px 0px;
+	color:#666666;
+	text-align:center;
+}
