@@ -178,6 +178,7 @@ a img:focus {
 
 .scroll-down-button{
   position: fixed;
+  display:block;
   bottom:0;
   left:50%;
   right:50%;
