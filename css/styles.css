@@ -178,6 +178,6 @@ a img:focus {
 
 @media (max-width: 240px) {
   .intro-header {
-    height: 50vh;
+    background: no-repeat right -480px bottom -150px;
   }
 }
