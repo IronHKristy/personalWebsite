@@ -172,12 +172,22 @@ a img:focus {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  /*margin-bottom: 50px;*/
   height: 100vh;
 }
 
-.scroll-down-button{
+/*.scroll-down-button{
   position: fixed;
+  display:block;
+  bottom:0;
+  left:50%;
+  right:50%;
+  color: #e45028;
+}*/
+.intro-header{
+  position:relative;
+}
+.scroll-down-button{
+  position: absolute;
   display:block;
   bottom:0;
   left:50%;
